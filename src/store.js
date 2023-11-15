@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import todoslice from './slices/todoSlice'
+import todoslice from './slices/todoslice'
 import alertSlice from './slices/alertSlice'
-import themeSlice from './slices/themeSlice'
+import themeSlice from './slices/themeslice'
 
 export default configureStore({
   reducer: {
